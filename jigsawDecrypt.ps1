@@ -16,7 +16,7 @@ $asciiArt = @"
 Write-Host $asciiArt
 
 # Prompt the user for the ransomware file extension (e.g., .fun)
-$fileExtension = Read-Host -Prompt "Enter the ransomware file extension (e.g., .fun)"
+$fileExtension = Read-Host -Prompt "Enter the ransomware file extension (eg: *.fun)"
 
 # Get all files with the specified ransomware extension in the current directory
 $files = Get-ChildItem -Path . -Filter "*$fileExtension"
