@@ -12,13 +12,15 @@ This PowerShell script is designed to decrypt files encrypted by the Jigsaw rans
 Follow these steps to run the Jigsaw Ransomware Decryption & Cleanup Script:  
 
 1️⃣ Place the Encrypted Files in the Same Folder as the Script  
+
 Ensure all encrypted files (with the ransomware extension, e.g., .fun) are in the same folder as the Jigsaw-Decrypt.ps1 script.  
+
 2️⃣ Enable Script Execution for This Script Only  
 To allow script execution only for this script, run the following command from PowerShell (as Administrator):  
 
-**PowerShell -ExecutionPolicy Bypass -File "C:\path\to\your\Jigsaw-Decrypt.ps1"**  
+**PowerShell -ExecutionPolicy Bypass -File "C:\path\to\your\jigsawDecrypt.ps1"**  
 
-Replace "C:\path\to\your\Jigsaw-Decrypt.ps1" with the full path to the script.  
+Replace "C:\path\to\your\jigsawDecrypt.ps1" with the full path to the script.  
 
 This will bypass the execution policy only for this script, and it will not change the execution policy for other scripts.  
 
@@ -29,7 +31,7 @@ Right-click on the PowerShell icon and select "Run as Administrator".
 Navigate to the folder containing the Jigsaw-Decrypt.ps1 script, or provide the full path.  
 Run the script with the following command:  
 
-**PowerShell -ExecutionPolicy Bypass -File "C:\path\to\your\Jigsaw-Decrypt.ps1"**  
+**PowerShell -ExecutionPolicy Bypass -File "C:\path\to\your\jigsawDecrypt.ps1"**  
 
 4️⃣ Follow the Prompts  
 The script will ask for the ransomware extension (e.g., .fun).  
