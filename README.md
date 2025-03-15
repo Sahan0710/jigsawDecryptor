@@ -3,7 +3,6 @@ This PowerShell script is designed to decrypt files encrypted by the Jigsaw rans
 
 🔹 Features  
 ✅ Batch Decryption: Decrypts all files with a specified ransomware extension in the current directory.  
-✅ Automatic Extension Removal: Restores files to their original names by stripping the ransomware extension.  
 ✅ Malware Cleanup: Detects and deletes known Jigsaw-related malicious directories.  
 ✅ Registry Fix: Removes suspicious startup entries that may cause malware persistence.  
 ✅ Error Handling: Provides warnings if decryption fails or if no infected files are found.  
