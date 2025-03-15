@@ -17,7 +17,7 @@ Ensure all encrypted files (with the ransomware extension, e.g., .fun) are in th
 2️⃣ Enable Script Execution for This Script Only  
 To allow script execution only for this script, run the following command from PowerShell (as Administrator):  
 
-**PowerShell -ExecutionPolicy Bypass -File "C:\path\to\your\jigsawDecrypt.ps1"**  
+**PowerShell -Unblock-File Bypass -File "C:\path\to\your\jigsawDecrypt.ps1"**  
 
 Replace "C:\path\to\your\jigsawDecrypt.ps1" with the full path to the script.  
 This will bypass the execution policy only for this script, and it will not change the execution policy for other scripts.  
